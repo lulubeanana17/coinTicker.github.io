@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 14, 109);
+}
+h1 {
+    margin: 1em 2em;
+}
+.homeTitle, .aboutTitle {
+    color: #fff;
+    text-decoration: none;
+}
+.homeTitle {
+    font-size: 25px;
+}
+.aboutTitle{
+    font-size: 18px;
+    margin: 1em 2em;
+    padding: .3em 1em;
+    border: 2px solid #fff;
+    border-radius: 1em;
+}
+.aboutTitle:hover {
+    background-color: #fff;
+    color: rgb(28, 14, 109);
+    transition: .3s;
+}
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 426px) {
+    .homeTitle {
+        font-size: 20px;
+    }
+    .aboutTitle{
+        font-size: 15px;
+        padding: .2em .7em;
+    }
+}
